@@ -1,0 +1,41 @@
+package kr.happyjob.study.accounting.model;
+
+public class UnpaidDetailItemModel {
+	
+	private String itemName;
+	private int provideValue;
+	private int itemPrice;
+	private int itemSurtax;
+	private int qut;
+	
+	public String getItemName() {
+		return itemName;
+	}
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+	public int getProvideValue() {
+		return provideValue;
+	}
+	public void setProvideValue(int provideValue) {
+		this.provideValue = provideValue;
+	}
+	public int getItemPrice() {
+		return itemPrice;
+	}
+	public void setItemPrice(int itemPrice) {
+		this.itemPrice = itemPrice;
+	}
+	public int getItemSurtax() {
+		return itemSurtax;
+	}
+	public void setItemSurtax(int itemSurtax) {
+		this.itemSurtax = itemSurtax;
+	}
+	public int getQut() {
+		return qut;
+	}
+	public void setQut(int qut) {
+		this.qut = qut;
+	}
+}
